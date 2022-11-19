@@ -35,13 +35,6 @@ namespace Work1
             {
                 //Отображаем рабочую форму
                 this.Show();
-                //Вытаскиваем из класса поля в label'ы
-                label1.Text = Auth.auth_id;
-                label2.Text = Auth.auth_fio;
-                label3.Text = "Успешна!";
-                //Красим текст в label в зелёный цвет
-                label3.ForeColor = Color.Green;
-
             }
             //иначе
             else
@@ -49,6 +42,13 @@ namespace Work1
                 //Закрываем форму
                 this.Close();
             }
+            PanelBus.Visible = false;
+            PanelTram.Visible = false;
+        }
+
+        private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

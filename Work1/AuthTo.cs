@@ -14,7 +14,7 @@ namespace Work1
     public partial class AuthTo : Form
     {
         // строка подключения к БД
-        string connStr = "server=10.90.12.110;port=33333;user=st_2_20_19;database=is_2_20_st19_KURS;password=69816309;";
+        string connStr = "server=chuc.caseum.ru;port=33333;username=st_2_20_19;password=69816309;database=is_2_20_st19_KURS";
         //Переменная соединения
         MySqlConnection conn;
         //Логин и пароль к данной форме Вы сможете посмотреть в БД db_test таблице t_user
